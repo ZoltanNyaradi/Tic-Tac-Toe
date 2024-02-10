@@ -65,3 +65,16 @@ h1{
     background-color: #F9CC9C;
     font-size: large;
 }
+/* Wins and loses */
+#stat{
+    display: flex;
+    justify-content: space-evenly;
+}
+#win-text{
+    color:blue;
+    font-size: x-large
+}
+#lose-text{
+    color:red;
+    font-size: x-large;
+}
