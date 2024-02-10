@@ -21,3 +21,11 @@ body{
     height: 80%;
     background-color: #FFE0AADD;
 }
+/* Inside of the outer div */
+/* Header */
+h1{
+    font-size: 2.5em;
+    text-align: center;
+    padding: 1em 0;
+    margin: 0;
+}
