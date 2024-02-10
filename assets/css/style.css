@@ -32,6 +32,7 @@ h1{
 /* gameboard */
 #gameboard{
     margin: auto;
+
     width: 80vw;
     height: 80vw;
     max-height: 45vh;
@@ -49,4 +50,18 @@ h1{
     height:25vw;
     max-height: 16vh;
     max-width: 16vh;
+}
+/* New game button */
+#button-div{
+    display: flex;
+    justify-content:center;
+}
+#new-game{
+    margin-top: 1em;
+    
+    box-shadow:2px 2px .8px .8px #333333;
+    border:solid black 1px;
+
+    background-color: #F9CC9C;
+    font-size: large;
 }
