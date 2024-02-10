@@ -41,3 +41,7 @@ h1{
     align-content: center;
     justify-content: center;
 }
+.space{
+    width:25vw;
+    height:25vw;
+}
