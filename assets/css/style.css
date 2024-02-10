@@ -34,6 +34,9 @@ h1{
     margin: auto;
     width: 80vw;
     height: 80vw;
+    max-height: 45vh;
+    max-width: 45vh;
+
     background-color: #F9CC9C;
 
     display:flex;
@@ -44,4 +47,6 @@ h1{
 .space{
     width:25vw;
     height:25vw;
+    max-height: 16vh;
+    max-width: 16vh;
 }
