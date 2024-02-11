@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded",function(){
         }
     }
     drawLines(spaces);
+    click(spaces);
 })
 /**
  * Draw a brown line between the spaces
@@ -25,4 +26,22 @@ function drawLines(spaces){
             }
         }
     }  
+}
+/**
+ * Event listener for the board 
+ */
+function click(spaces){
+    for(let i=0; i<3;i++){
+        for(let j=0; j<3;j++){
+            spaces[i][j].addEventListener("click",playerMove);
+        }
+    }
+}
+/**
+ * It draws the player move
+ */
+function playerMove(event){
+    if(this.innerHTML===" "){
+        this.innerHTML="X";
+    }
 }
