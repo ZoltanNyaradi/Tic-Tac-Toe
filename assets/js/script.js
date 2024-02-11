@@ -121,35 +121,43 @@ function isItFinished(numOfFreePlaces){
     */
     for (let i=0;i<3;i++){
         if(winTable.row[i]===3){
+            drawWiningLine(i,"horisontal");
             win();
             return true;
         }
         if(winTable.column[i]===3){
+            drawWiningLine(i+3,"vertical");
             win();
             return true;
         }
         if(winTable.row[i]===-3){
+            drawWiningLine(i,"horisontal");
             lose();
             return true;
         }
         if(winTable.column[i]===-3){
+            drawWiningLine(i+3,"vertical");
             lose();
             return true;
         }
     }
     if (winTable.diagonal[0]===3){
+        drawWiningLine(1,"diagonal0");
         win();
         return true;
     }
     if (winTable.diagonal[0]===-3){
+        drawWiningLine(1,"diagonal0");
         lose();
         return true;
     }
     if (winTable.diagonal[1]===3){
+        drawWiningLine(1,"diagonal1");
         win();
         return true;
     }
     if (winTable.diagonal[1]===-3){
+        drawWiningLine(1,"diagonal1");
         lose();
         return true;
     }
@@ -218,4 +226,25 @@ function newGame(){
         document.getElementsByClassName("space")[i].innerHTML=" ";
         
     }
+}
+/**
+ * It draws a line on the wining three
+ */
+function drawWiningLine(positionCode, direction){
+    // position of the line
+    let position;
+    if (positionCode===0) { position ="top"; }
+    if (positionCode===1) { position ="center"; }
+    if (positionCode===2) { position ="bottom"; }
+    if (positionCode===3) { position ="left"; }
+    if (positionCode===4) { position ="center"; }
+    if (positionCode===5) { position ="right"; }
+    // the vertical line image has a different width
+    let backgroundSize="max(40vh)";
+    if (direction==="vertical"){ backgroundSize="max(17vh)"}
+
+    direction="#F9CC9C url('assets/images/"+direction+".png') no-repeat";
+    document.getElementById("gameboard").style.background=direction;
+    document.getElementById("gameboard").style.backgroundSize=backgroundSize;
+    document.getElementById("gameboard").style.backgroundPosition=position;
 }
