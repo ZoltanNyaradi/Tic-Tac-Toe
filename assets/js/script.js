@@ -84,9 +84,7 @@ function isItFinished(numOfFreePlaces){
         row:[0,0,0],
         column:[0,0,0],
         diagonal:[0,0],
-    }; 
-    // If it turns true, the game is over and this function will return true
-    let end=false;
+    };
     /*
         As it iterates over the spaces checks the innerHTML
         if it's "X" the spaceValue become 1
@@ -124,39 +122,35 @@ function isItFinished(numOfFreePlaces){
     for (let i=0;i<3;i++){
         if(winTable.row[i]===3){
             win();
-            end=true;
+            return true;
         }
         if(winTable.column[i]===3){
             win();
-            end=true;
+            return true;
         }
         if(winTable.row[i]===-3){
             lose();
-            end=true;
+            return true;
         }
         if(winTable.column[i]===-3){
             lose();
-            end=true;
+            return true;
         }
     }
     if (winTable.diagonal[0]===3){
         win();
-        end=true;
+        return true;
     }
     if (winTable.diagonal[0]===-3){
         lose();
-        end=true;
+        return true;
     }
     if (winTable.diagonal[1]===3){
         win();
-        end=true;
+        return true;
     }
     if (winTable.diagonal[1]===-3){
         lose();
-        end=true;
-    }
-    //if someone won the game is over
-    if (end){
         return true;
     }
     if(numOfFreePlaces===0){
