@@ -1,5 +1,5 @@
 /* Font-family */
-h1,#new-game,#win-text,#lose-text{
+h1,#new-game,#win-text,#lose-text,.space{
     font-family: "Segoe Print";
 }
 /* Body & background image */
@@ -50,6 +50,13 @@ h1{
     height:25vw;
     max-height: 14vh;
     max-width: 14vh;
+
+    font-size: max(10vh);
+
+    display:flex;
+    flex-wrap: wrap;
+    align-content: center;
+    justify-content: center;
 }
 /* New game button */
 #button-div{
