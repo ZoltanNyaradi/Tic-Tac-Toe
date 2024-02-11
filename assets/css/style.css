@@ -48,8 +48,8 @@ h1{
 .space{
     width:25vw;
     height:25vw;
-    max-height: 16vh;
-    max-width: 16vh;
+    max-height: 14vh;
+    max-width: 14vh;
 }
 /* New game button */
 #button-div{
