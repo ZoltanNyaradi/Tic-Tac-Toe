@@ -226,6 +226,7 @@ function newGame(){
         document.getElementsByClassName("space")[i].innerHTML=" ";
         
     }
+    document.getElementById("gameboard").style.background="#F9CC9C";
 }
 /**
  * It draws a line on the wining three
