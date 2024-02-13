@@ -20,10 +20,10 @@ function drawLines(spaces){
     for(let i=0; i<3;i++){
         for(let j=0; j<3;j++){
             if(i!==2){
-                spaces[i][j].style.borderBottom="2px solid #bb6622";
+                spaces[i][j].style.borderBottom="3px solid black";
             }
             if(j!==2){
-                spaces[i][j].style.borderRight="2px solid #bb6622";
+                spaces[i][j].style.borderRight="3px solid black";
             }
         }
     }  
