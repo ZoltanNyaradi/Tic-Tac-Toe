@@ -1,6 +1,6 @@
 # Tic-Tac-Toe
 
-![Responsiveness](documentation/resp.png)
+![Responsiveness](documentation/README/resp.png)
 
 Try the classic and simple game of [tic-tac-toe](https://zoltannyaradi.github.io/Tic-Tac-Toe/).
 
@@ -39,24 +39,24 @@ In the background we can see an image with finished and ongoing games and X and 
 * #FF0000 is the color of the wins
 * #0000FF is the color of the loses
 
-![Color Scheme](documentation/color-scheme.png)
+![Color Scheme](documentation/README/color-scheme.png)
 
 ### Typography
 
 * Segoe Print was used for all text
 * MV Boli was used to make the background
 
-![Font Family](documentation)
+![Font Family](documentation/README/font-family.png)
 
 ### Wireframe
 
 Balsamiq was used to create the wireframe for 2 phones, tablet, laptop and PC.
 
-![Wireframe Phone Small](documentation/wireframe-phone-small.png)
-![Wireframe Phone Large](documentation/wireframe-phone-large.png)
-![Wireframe Tablet](documentation/wireframe-tablet.png)
-![Wireframe Laptop](documentation/wireframe-laptop.png)
-![Wireframe PC](documentation/wireframe-PC.png)
+![Wireframe Phone Small](documentation/README/wireframe-phone-small.png)
+![Wireframe Phone Large](documentation/README/wireframe-phone-large.png)
+![Wireframe Tablet](documentation/README/wireframe-tablet.png)
+![Wireframe Laptop](documentation/README/wireframe-laptop.png)
+![Wireframe PC](documentation/README/wireframe-pc.png)
 
 ## Features
 
@@ -64,31 +64,31 @@ Balsamiq was used to create the wireframe for 2 phones, tablet, laptop and PC.
 
 The favion was drawn in Paint 3D.
 
-![Favicon](documentation/favicon.png)
+![Favicon](documentation/README/favicon.png)
 
 ### Gameboard
 
 The player can place an x on the gameboard, and the bot will response. If someone collect 3 in a line or no more places the game ends. The wining free will be struck.
 
-![Gameboard](document/gameboard.png)
+![Gameboard](documentation/README/gameboard.png)
 
 ### End of The Game Alert
 
 When the game ends, an alert informs the player from the result.
 
-![End of The Game Alert](documentation/end-of-the-game-alert.png)
+![End of The Game Alert](documentation/README/end-of-the-game-alert.png)
 
 ### New Game Button
 
 With this button the player clean the board and start a new game.
 
-![New Game Button](documntation/new-game-button.png)
+![New Game Button](documentation/README/new-game-button.png)
 
 ### Win and Lose Counter
 
 Wins and loses are counted bellow the board.
 
-![Win and Lose Counter](documentation/win-and-lose-counter.png)
+![Win and Lose Counter](documentation/README/win-and-lose-counter.png)
 
 ### Future Implementions
 
