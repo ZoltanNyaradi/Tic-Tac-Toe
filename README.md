@@ -1,39 +1,157 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Tic-Tac-Toe
 
-Welcome,
+![Responsiveness](documentation/resp.png)
 
-This is the Code Institute student template for Codeanywhere. If you are using Gitpod then you need [this template](https://github.com/Code-Institute-Org/gitpod-full-template) instead.  We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+Try the classic and simple game of [tic-tac-toe](https://zoltannyaradi.github.io/Tic-Tac-Toe/).
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Codeanywhere and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **August 30th, 2023**
+## Contents
 
-## Codeanywhere Reminders
+* [Designe](#designe)
+  * [Color Scheme](#color-scheme)
+  * [Typography](#typography)
+*   [Wireframe](#wireframe)
+* [Features](#features)
+  * [Favicon](#favicon)
+  * [Gameboard](#gameboard)
+  * [New Game Button](#new-game-button)
+  * [Win and Lose Counter](#win-and-lose-counter)
+  * [Future Implementions](#future-implementions)
+* [Technologies Used](#technologies-used)
+  * [Languages Used](#languages-used)
+  * [Used Programs](#used-programs)
+* [Deployment & Local Development](#deployment--local-development)
+  * [Deployment](#deployment)
+  * [Local Development](#local-development)
+    * [How to Fork](#how-to-fork)
+    * [How to Clone](#how-to-clone)
+* [Testing](#testing)
+* [Credits](#credits)
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere, in the terminal, type:
+ ## Designe
+ 
+In the background we can see an image with finished and ongoing games and X and O-s in different size.
 
-`python3 -m http.server`
+### Color Scheme
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+* #FFE0AADD is the background color behind of all elements.
+* #F9CC9C is the background color of the gameboard and the buttom.
+* #000000 is the color of all texts and lines.
+* #FF0000 is the color of the wins
+* #0000FF is the color of the loses
 
-To run a frontend (HTML, CSS, Javascript only) application in Codeanywhere with no-cache, you can use this alias for `python3 -m http.server`.
+![Color Scheme](documentation/color-scheme.png)
 
-`http_server`
+### Typography
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+* Segoe Print was used for all text
+* MV Boli was used to make the background
 
-A button should appear to click: _Open Preview_ or _Open Browser_.
+![Font Family](documentation)
 
-In Codeanywhere you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### Wireframe
 
-To log into the Heroku toolbelt CLI:
+Balsamiq was used to create the wireframe for 2 phones, tablet, laptop and PC.
 
-1. Log in to your Heroku account and go to _Account Settings_ in the menu under your avatar.
-2. Scroll down to the _API Key_ and click _Reveal_
-3. Copy the key
-4. In Codeanywhere, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+![Wireframe Phone Small](documentation/wireframe-phone-small.png)
+![Wireframe Phone Large](documentation/wireframe-phone-large.png)
+![Wireframe Tablet](documentation/wireframe-tablet.png)
+![Wireframe Laptop](documentation/wireframe-laptop.png)
+![Wireframe PC](documentation/wireframe-PC.png)
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
+## Features
 
----
+### Favicon
 
-Happy coding!
+The favion was drawn in Paint 3D.
+
+![Favicon](documentation/favicon.png)
+
+### Gameboard
+
+The player can place an x on the gameboard, and the bot will response. If someone collect 3 in a line or no more places the game ends. The wining free will be struck.
+
+![Gameboard](document/gameboard.png)
+
+### End of The Game Alert
+
+When the game ends, an alert informs the player from the result.
+
+![End of The Game Alert](documentation/end-of-the-game-alert.png)
+
+### New Game Button
+
+With this button the player clean the board and start a new game.
+
+![New Game Button](documntation/new-game-button.png)
+
+### Win and Lose Counter
+
+Wins and loses are counted bellow the board.
+
+![Win and Lose Counter](documentation/win-and-lose-counter.png)
+
+### Future Implementions
+
+* In the futre will be different difficultes avaible. 
+* In every second game the bot will start the game.
+
+## Technologies Used
+
+### Languages Used
+
+HTML, CSS, JavaScript
+
+### Used Programs
+
+* Balsamiq - Used for create wireframe.
+* Github - Used to save project and to deploy it.
+* Codeanywhere - Used as a developper platform at the beginning.
+* Sublime text - Used for modify HTML, CSS, Javascript files.
+* Git - Used to manage verisons.
+* Paint - Used to create background.
+* Paint 3D - Used to create favicons and wining lines.
+* tinypng.com - Used to tinify images.
+* Am I Responsive - Used to check responsiveness.
+* Firefox Developer Tools - Used to review the project.
+
+## Deployment & Local Development
+### Deployment
+
+The site is deployed using GitHub Pages - [Tic-Tac-Toe](https://zoltannyaradi.github.io/Tic-Tac-Toe/).
+
+To Deploy the site using GitHub Pages:
+
+1. Login (or signup) to Github.
+2. Go to the repository for this project, [ZoltanNyaradi/Tic-Tac-Toe](https://github.com/ZoltanNyaradi/Tic-Tac-Toe/deployments).
+3. Click the settings button.
+4. Select pages in the left hand navigation menu.
+5. From the source dropdown select main branch and press save.
+6. The site has now been deployed, please note that this process may take a few minutes before the site goes live.
+
+### Local Development
+
+#### How to Fork
+
+To fork the repository:
+
+1. Log in (or sign up) to Github.
+2. Go to the repository for this project, [ZoltanNyaradi/Tic-Tac-Toe](https://github.com/ZoltanNyaradi/Tic-Tac-Toe/deployments).
+3. Click the Fork button in the top right corner.
+
+#### How to Clone
+
+To clone the repository:
+
+1. Log in (or sign up) to GitHub.
+2. Go to the repository for this project, [ZoltanNyaradi/Tic-Tac-Toe](https://github.com/ZoltanNyaradi/Tic-Tac-Toe/deployments).
+3. Click on the code button, select whether you would like to clone with HTTPS, SSH or GitHub CLI and copy the link shown.
+4. Open the terminal in your code editor and change the current working directory to the location you want to use for the cloned directory.
+5. Type 'git clone' into the terminal and then paste the link you copied in step 3. Press enter.
+
+## Testing
+
+You can find the testing in the [TESTING.md](TESTING.md) file.  
+
+## Credits
+
+Credit to my mentor Jubril Akolade who helps me on the way to be a developper.
