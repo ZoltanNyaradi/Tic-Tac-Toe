@@ -84,3 +84,27 @@ h1{
     color:red;
     font-size: x-large;
 }
+/* Media query for tablets and bigger */
+@media only screen and (min-width: 768px){
+    h1{
+        font-size: 3.2em;
+    }
+    #new-game{
+        font-size: x-large;
+    }
+    #win-text,#lose-text{
+        font-size: xx-large;
+    }
+}
+/* Media query for laptops and bigger */
+@media only screen and (min-width: 992px){
+    h1{
+        font-size: 4em;
+    }
+    #new-game{
+        font-size: xx-large;
+    }
+    #win-text,#lose-text{
+        font-size: xxx-large;
+    }
+}
