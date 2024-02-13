@@ -12,7 +12,7 @@ document.addEventListener("DOMContentLoaded",function(){
     drawLines(spaces);
     click(spaces);
     document.getElementById("new-game").addEventListener("click",newGame);
-})
+});
 /**
  * Draw a brown line between the spaces
  */
@@ -184,7 +184,7 @@ function win(){
  * Inform the player that he lost
  * */
 function lose(){
-    alert("Unfortunately you lost this time!")
+    alert("Unfortunately you lost this time!");
     clickBlock();
     document.getElementById("lose-num").innerHTML++;
 }
@@ -215,7 +215,7 @@ function clickAllow(){
  * Alert the player that it is a draw
  */
 function draw(){
-    alert("It is a draw!")
+    alert("It is a draw!");
 }
 /**
  * Start a new game
@@ -235,14 +235,17 @@ function drawWiningLine(positionCode, direction){
     // position of the line
     let position;
     if (positionCode===0) { position ="top"; }
-    if (positionCode===1) { position ="center"; }
-    if (positionCode===2) { position ="bottom"; }
-    if (positionCode===3) { position ="left"; }
-    if (positionCode===4) { position ="center"; }
-    if (positionCode===5) { position ="right"; }
+    else { if (positionCode===1) { position ="center"; }
+    else { if (positionCode===2) { position ="bottom"; }
+    else { if (positionCode===3) { position ="left"; }
+    else { if (positionCode===4) { position ="center"; }
+    else { if (positionCode===5) { position ="right"; }
+    }}}}}
     // the vertical line image has a different width
     let backgroundSize="max(40vh)";
-    if (direction==="vertical"){ backgroundSize="max(17vh)"}
+    if (direction==="vertical"){
+        backgroundSize="max(17vh)";
+    }
 
     direction="#F9CC9C url('assets/images/"+direction+".png') no-repeat";
     document.getElementById("gameboard").style.background=direction;
