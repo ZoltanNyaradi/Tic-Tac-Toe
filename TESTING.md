@@ -58,7 +58,7 @@ The website looks good on all tested devices.
 
 ### Firefox Developer Tool
 
-![Developer Tool](documentation/TESTING/developper-tool.png)
+![Developer Tool](documentation/TESTING/developer-tool.png)
 
 ### Win 10 - Samsung s24f350 monitor
 
