@@ -1,6 +1,6 @@
 /* Font-family */
 h1,#new-game,#win-text,#lose-text,.space{
-    font-family: "Segoe Print";
+    font-family: "Segoe Print",cursive;
 }
 /* Body & background image */
 body{
