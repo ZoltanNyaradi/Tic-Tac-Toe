@@ -175,7 +175,7 @@ function isItFinished(numOfFreePlaces){
  * Congratulate for the player
  * */
 function win(){
-    alert("Congratulation! You Won!");
+    Swal.fire("Congratulation! You Won!");
     clickBlock();
     document.getElementById("win-num").innerHTML++;
 }
@@ -184,7 +184,7 @@ function win(){
  * Inform the player that he lost
  * */
 function lose(){
-    alert("Unfortunately you lost this time!");
+    Swal.fire("Unfortunately you lost this time!");
     clickBlock();
     document.getElementById("lose-num").innerHTML++;
 }
@@ -215,7 +215,7 @@ function clickAllow(){
  * Alert the player that it is a draw
  */
 function draw(){
-    alert("It is a draw!");
+    Swal.fire("It's a draw!");
 }
 /**
  * Start a new game
