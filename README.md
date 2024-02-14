@@ -87,7 +87,7 @@ When the game ends, an alert informs the player from the result.
 
 ### New Game Button
 
-With this button the player clean the board and start a new game.
+With this button the player cleans the board and start a new game.
 
 ![New Game Button](documentation/README/new-game-button.png)
 
@@ -99,7 +99,7 @@ Wins and loses are counted bellow the board.
 
 ### Future Implementions
 
-* In the futre will be different difficultes avaible. 
+* In the future will be different difficulties available. 
 * In every second game the bot will start the game.
 
 ## Technologies Used
@@ -112,15 +112,15 @@ HTML, CSS, JavaScript
 
 * Balsamiq - Used for create wireframe.
 * Github - Used to save project and to deploy it.
-* Codeanywhere - Used as a developper platform at the beginning.
-* Sublime text - Used for modify HTML, CSS, Javascript files.
-* Git - Used to manage verisons.
+* Codeanywhere - Used as a developer platform at the beginning.
+* Sublime text - Used for modify HTML, CSS, JavaScript files.
+* Git - Used to manage versions.
 * Paint - Used to create background.
 * Paint 3D - Used to create favicons and wining lines.
 * tinypng.com - Used to tinify images.
 * Am I Responsive - Used to check responsiveness.
 * Firefox Developer Tools - Used to review the project.
-* ChatGTP - Used to write the introdution of the game.
+* ChatGTP - Used to write the introduction of the game.
 
 ## Deployment & Local Development
 ### Deployment
@@ -164,14 +164,14 @@ You can find the detailed testing in the [TESTING.md](TESTING.md) file.
 
 ### Fixed Bugs
 
-| Bud | Solution |
+| Bug | Solution |
 | --- | --- |
-| If the player had a double win, then the alert came two times and the player got two points. | With the result keyword the function had been stoped. | 
-| The browser on phone don't have Segoe Print font family. | Gereic font family was added. |
+| If the player had a double win, then the alert came two times and the player got two points. | With the result keyword the function had been stopped. | 
+| The browser on phone don't have Segoe Print font family. | Generic font family was added. |
 
 ### Unsolved Bugs
 
-If someone conect 3 two times at once, only one of them get stroke.
+If someone connect 3 two times at once, only one of them get stroke.
 
 ![Unsolved](documentation/README/unsolved.png)
 
@@ -183,4 +183,4 @@ If someone conect 3 two times at once, only one of them get stroke.
 
 ### Acknowledgments
 
-Credit to my mentor Jubril Akolade who helps me on the way to be a developper.
+Credit to my mentor Jubril Akolade who helps me on the way to be a developer.
