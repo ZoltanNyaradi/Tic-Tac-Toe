@@ -15,8 +15,8 @@ body{
     align-items: center;
     justify-content: center;
 }
-/* Outer div */
-#outer-div{
+/* main */
+main{
     width: 90%;
     height: 80%;
     background-color: #FFE0AADD;
@@ -25,7 +25,7 @@ body{
     flex-direction: column;
     justify-content: space-evenly;
 }
-/* Inside of the outer div */
+/* Inside of the main */
 /* Header */
 h1{ 
     margin: .1em;
