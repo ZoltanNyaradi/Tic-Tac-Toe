@@ -2,7 +2,7 @@
 
 ![Responsiveness](documentation/README/resp.png)
 
-Try the classic and simple game of [tic-tac-toe](https://zoltannyaradi.github.io/Tic-Tac-Toe/).
+In the game of Tic Tac Toe, two players take turns marking spaces in a 3x3 grid. The goal is to get three of your symbols (either X or O) in a row, column, or diagonal. Players often strategize to block their opponent's moves while attempting to create their own winning combinations. The game typically ends when one player achieves three in a row or when the grid is completely filled without a winner, resulting in a draw. Tic Tac Toe is a simple yet engaging game that can be enjoyed by people of all ages. Try it here: [tic-tac-toe](https://zoltannyaradi.github.io/Tic-Tac-Toe/).
 
 ## Contents
 
@@ -30,6 +30,8 @@ Try the classic and simple game of [tic-tac-toe](https://zoltannyaradi.github.io
     * [Fixed Bugs](#fixed-bugs)
     * [Unsolved Bugs](#unsolved-bugs) 
 * [Credits](#credits)
+    * [Used Codes](#used-codes)
+    * [Acknowledgments](#acknowledgments)
 
  ## Designe
  
@@ -118,6 +120,7 @@ HTML, CSS, JavaScript
 * tinypng.com - Used to tinify images.
 * Am I Responsive - Used to check responsiveness.
 * Firefox Developer Tools - Used to review the project.
+* ChatGTP - Used to write the introdution of the game.
 
 ## Deployment & Local Development
 ### Deployment
@@ -173,5 +176,11 @@ If someone conect 3 two times at once, only one of them get stroke.
 ![Unsolved](documentation/README/unsolved.png)
 
 ## Credits
+
+### Used Codes
+
+[Sweetalarm](https://sweetalert2.github.io/) was used in the JavaScript code.
+
+### Acknowledgments
 
 Credit to my mentor Jubril Akolade who helps me on the way to be a developper.
