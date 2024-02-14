@@ -76,4 +76,4 @@ The website looks good on all tested devices.
 
 ### Samsung Galaxy S10
 
-![S10](documentation/TESTING/s10.png)
+![S10](documentation/TESTING/s10.jpg)
