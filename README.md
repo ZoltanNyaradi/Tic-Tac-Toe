@@ -13,6 +13,7 @@ Try the classic and simple game of [tic-tac-toe](https://zoltannyaradi.github.io
 * [Features](#features)
   * [Favicon](#favicon)
   * [Gameboard](#gameboard)
+  * [End of The Game Alert](#end-of-the-game-alert)
   * [New Game Button](#new-game-button)
   * [Win and Lose Counter](#win-and-lose-counter)
   * [Future Implementions](#future-implementions)
@@ -25,6 +26,9 @@ Try the classic and simple game of [tic-tac-toe](https://zoltannyaradi.github.io
     * [How to Fork](#how-to-fork)
     * [How to Clone](#how-to-clone)
 * [Testing](#testing)
+    * [Detailed Testing](#detailed-testing)
+    * [Fixed Bugs](#fixed-bugs)
+    * [Unsolved Bugs](#unsolved-bugs) 
 * [Credits](#credits)
 
  ## Designe
@@ -36,15 +40,16 @@ In the background we can see an image with finished and ongoing games and X and 
 * #FFE0AADD is the background color behind of all elements.
 * #F9CC9C is the background color of the gameboard and the buttom.
 * #000000 is the color of all texts and lines.
-* #FF0000 is the color of the wins
-* #0000FF is the color of the loses
+* #FF0000 is the color of the wins.
+* #0000FF is the color of the loses.
 
 ![Color Scheme](documentation/README/color-scheme.png)
 
 ### Typography
 
-* Segoe Print was used for all text
-* MV Boli was used to make the background
+* Segoe Print was used for all text.
+* MV Boli was used to make the background.
+* Cursive was used as a generic font.
 
 ![Font Family](documentation/README/font-family.png)
 
@@ -150,7 +155,22 @@ To clone the repository:
 
 ## Testing
 
-You can find the testing in the [TESTING.md](TESTING.md) file.  
+### Detailed Testing
+
+You can find the detailed testing in the [TESTING.md](TESTING.md) file.
+
+### Fixed Bugs
+
+| Bud | Solution |
+| --- | --- |
+| If the player had a double win, then the alert came two times and the player got two points. | With the result keyword the function had been stoped. | 
+| The browser on phone don't have Segoe Print font family. | Gereic font family was added. |
+
+### Unsolved Bugs
+
+If someone conect 3 two times at once, only one of them get stroke.
+
+![Unsolved](documentation/README/unsolved.png)
 
 ## Credits
 
